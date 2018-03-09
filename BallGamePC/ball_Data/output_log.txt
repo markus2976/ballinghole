@@ -1,0 +1,149 @@
+Mono path[0] = 'F:/ballspiel/Myballgame/MyballGame/BallGamePC/ball_Data/Managed'
+Mono path[1] = 'F:/ballspiel/Myballgame/MyballGame/BallGamePC/ball_Data/Mono'
+Mono config path = 'F:/ballspiel/Myballgame/MyballGame/BallGamePC/ball_Data/Mono/etc'
+PlayerConnection initialized from F:/ballspiel/Myballgame/MyballGame/BallGamePC/ball_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55223
+Multi-casting "[IP] 192.168.0.10 [Port] 55223 [Flags] 2 [Guid] 3774601773 [EditorId] 2928174229 [Version] 1048832 [Id] WindowsPlayer(markus-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.10:55223]
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7800 Series (ID=0x6819)
+    Vendor:   ATI
+    VRAM:     2027 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.056 seconds
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at -1680,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: F:\ballspiel\Myballgame\MyballGame\BallGamePC\ball_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: e0c -> priority: 1 
+New level loadLevel1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\LevelManager.cs:8)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:180)
+UnityEngine.Events.CachedInvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:298)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:626)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:766)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:54)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:378)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:277)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:265)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:179)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: F:/ballspiel/Myballgame/MyballGame/Assets/scripts/LevelManager.cs Line: 8)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.043530 ms
+System memory in use before: 29.2 MB.
+System memory in use after: 29.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 215.
+Total: 0.183716 ms (FindLiveObjects: 0.015464 ms CreateObjectMapping: 0.012371 ms MarkObjects: 0.143508 ms  DeleteObjects: 0.011443 ms)
+
+0.006061961
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:32)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.0001095552
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:50)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.006226053
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:50)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.01234208
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:50)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.01845716
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:50)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.02457084
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:50)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+-0.01845716
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+rotate:Update() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\rotate.cs:32)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.451248 ms
+System memory in use before: 29.8 MB.
+System memory in use after: 29.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 209.
+Total: 0.295368 ms (FindLiveObjects: 0.016082 ms CreateObjectMapping: 0.006185 ms MarkObjects: 0.193303 ms  DeleteObjects: 0.078867 ms)
+
+Level Quitting
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:QuitLevel() (at F:\ballspiel\Myballgame\MyballGame\Assets\scripts\LevelManager.cs:14)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:149)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:626)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:766)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:54)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:378)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:277)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:265)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:179)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: F:/ballspiel/Myballgame/MyballGame/Assets/scripts/LevelManager.cs Line: 14)
+
